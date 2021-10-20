@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #a7a5a5;
+}
+header{
+    background-color: white;
+}
+main{
+    padding: 30px 50px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 15x;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.lineinput{
+    display: grid;
+    margin-bottom: 10px;
+}
+input{
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    outline: 0;
+}
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: #083e8a;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+button:hover{
+    background-color: #041d46;
+    color: #dddddd;
+}
+.tabela{
+    margin-top: 15px;
+    background-color: white;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+table th{
+    background-color: #bdbdce;
+}
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+}
+table td img{
+    width: 20px;
+}
+.center{
+   text-align: center;
+}

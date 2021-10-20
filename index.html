@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script1.js"></script>
+
+    <title>Title</title>
+
+
+</head>
+<body>
+        <header>
+            <h1>CADASTRO</h1>
+        </header>
+        <main>
+            <div class="title">
+                <h2>CONTATOS</h2>
+
+            </div>
+            <div class="card">
+               <div class="lineinput">
+                   <label>NOME:</label>
+                   <input type="text" id="nome">
+               </div>
+               <div class="lineinput">
+                   <label>SOBRENOME:</label>
+                   <input type="text" id="sobrenome">
+               </div>
+               <div class="lineinput">
+                   <label>APELIDO:</label>
+                   <input type="text" id="apelido">
+               </div>
+                <div class="lineinput">
+                    <label>TELEFONE:</label>
+                    <input type="tel" id="telefone" placeholder="(XX) XXXX-XXXX">
+                </div>
+                <div class="lineinput">
+                    <label>CIDADE:</label>
+                    <input type="text" id="cidade">
+                </div>
+                <div class="lineinput">
+                    <label>ESTADO:</label>
+                    <input type="text" id="estado">
+                </div>
+
+                    <button onclick="cadastro.salvar()">SALVAR</button>
+                    <button onclick="cadastro.cancelar()">CANCELAR</button>
+            </div>
+            <div class="tabela">
+                <table border="1">
+                    <thead>
+                        <th class="center">ID</th>
+                        <th>NOME</th>
+                        <th>SOBRENOME</th>
+                        <th>APELIDO</th>
+                        <th>TELEFONE</th>
+                        <th>CIDADE</th>
+                        <th>ESTADO</th>
+                        <th class="center">AÇÕES</th>
+                    </thead>
+                    <tbody id="tbody">
+
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+</body>
+</html>
